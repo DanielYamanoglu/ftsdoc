@@ -1,0 +1,15 @@
+INVOICE
+Invoice Number: INV-2023-30245
+Issue Date: January 3, 2023
+Due Date: March 8, 2023
+
+From: Veltrix GmbH
+Bill To: Kestrel Industries
+Contact: support@example.com
+
+Description / Amount
+Support plan x18   EUR 79,979.72
+Cloud hosting x5   GBP 67,616.79
+
+Total Due: GBP 89,630.94
+Payment terms: net 30 days.

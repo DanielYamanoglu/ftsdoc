@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>ftsdoc pipeline</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="960" height="330" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g fill="#ffffff" stroke="#475569" stroke-width="1.5">
+    <rect x="24" y="125" width="130" height="80" rx="8"/>
+    <rect x="190" y="125" width="150" height="80" rx="8"/>
+    <rect x="376" y="125" width="150" height="80" rx="8"/>
+    <rect x="570" y="50" width="190" height="80" rx="8" fill="#e0f2fe" stroke="#0369a1"/>
+    <rect x="570" y="200" width="190" height="80" rx="8" fill="#dcfce7" stroke="#15803d"/>
+    <rect x="800" y="125" width="136" height="80" rx="8" fill="#fef9c3" stroke="#a16207"/>
+  </g>
+  <g fill="none" stroke="#475569" stroke-width="1.8" marker-end="url(#a)">
+    <path d="M154 165 H188"/>
+    <path d="M340 165 H374"/>
+    <path d="M526 150 C548 150 548 100 568 90"/>
+    <path d="M526 180 C548 180 548 240 568 240"/>
+    <path d="M760 90 C782 100 782 150 798 155"/>
+    <path d="M760 240 C782 240 782 180 798 175"/>
+  </g>
+  <g fill="#0f172a" text-anchor="middle" font-size="14" font-weight="600">
+    <text x="89" y="160">Input</text>
+    <text x="265" y="153">Ingest</text>
+    <text x="451" y="153">Classify</text>
+    <text x="665" y="82">LLM backend</text>
+    <text x="665" y="232">Offline backend</text>
+    <text x="868" y="160">Typed JSON</text>
+  </g>
+  <g fill="#334155" text-anchor="middle" font-size="12">
+    <text x="89" y="180">.txt  .pdf  .docx</text>
+    <text x="265" y="173">LangChain loaders</text>
+    <text x="265" y="190">+ text splitter</text>
+    <text x="451" y="173">TF-IDF + LogReg</text>
+    <text x="451" y="190">invoice / cv /</text>
+    <text x="451" y="205" dy="-1">contract / tech_spec</text>
+    <text x="665" y="102">with_structured_output</text>
+    <text x="665" y="119">(API key set)</text>
+    <text x="665" y="252">fine-tuned NER + regex</text>
+    <text x="665" y="269">(no keys, no network)</text>
+    <text x="868" y="180">Pydantic schema</text>
+    <text x="868" y="196">per doc type</text>
+  </g>
+  <text x="24" y="316" font-size="12" fill="#475569">Both backends fill the same schema; CLI: python -m ftsdoc extract ...  API: POST /extract</text>
+</svg>

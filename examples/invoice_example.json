@@ -1,0 +1,15 @@
+{
+  "source": "invoice_example.pdf",
+  "doc_type": "invoice",
+  "classifier_confidence": 0.9866653480993801,
+  "backend": "offline",
+  "data": {
+    "invoice_number": "INV-2025-73304",
+    "issue_date": "13.03.2025",
+    "due_date": "4.03.2025",
+    "vendor": "Garnet Labs",
+    "customer": "Altavue Systems",
+    "contact_email": "info@example.org",
+    "total": "EUR 81,443.03"
+  }
+}

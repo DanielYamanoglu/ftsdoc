@@ -1,0 +1,19 @@
+{
+  "source": "contract_example.docx",
+  "doc_type": "contract",
+  "classifier_confidence": 0.9947366454681273,
+  "backend": "offline",
+  "data": {
+    "effective_date": "26 August 2025",
+    "parties": [
+      "Fenwick Systems",
+      "Brindle Systems"
+    ],
+    "fee": "EUR 108,130.43",
+    "notice_email": "contact@example.net",
+    "signatories": [
+      "Charles Hunt",
+      "Frederick Peterson"
+    ]
+  }
+}

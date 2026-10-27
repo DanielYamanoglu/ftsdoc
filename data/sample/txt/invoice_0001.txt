@@ -1,0 +1,15 @@
+INVOICE
+Invoice #INV-2025-73304
+Issue Date: 13.03.2025
+Due Date: 4.03.2025
+
+From: Garnet Labs
+Bill To: Altavue Systems
+Contact: info@example.org
+
+Description / Amount
+Consulting services x11   GBP 6,941.13
+Consulting services x19   $70,385.12
+
+Total Due: EUR 81,443.03
+Payment terms: net 30 days.

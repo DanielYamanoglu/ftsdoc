@@ -1,0 +1,13 @@
+LICENSE AGREEMENT
+
+This Agreement is entered into as of 23 June 2022 between Fenwick Dynamics ("Provider") and Fenwick Holdings ("Client").
+
+1. Term. This Agreement remains in force for 23 months and renews unless terminated.
+2. Fees. The Client shall pay the Provider GBP 413,449.64 in total in accordance with the payment schedule.
+3. Confidentiality. Each party shall keep the other party's information confidential.
+4. Governing Law. This Agreement is governed by the laws of Germany.
+5. Notices. Legal notices shall be sent to info@example.net.
+
+Signed:
+Michael Wright, Provider
+Hector Chan, Client

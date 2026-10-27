@@ -1,0 +1,15 @@
+TECHNICAL SPECIFICATION
+Model: ZN-9018-D
+Manufacturer: Marlow Labs
+Revision date: 12.08.2025
+
+Specifications
+Operating voltage: 48 V
+Power consumption: 258 W
+Interface: USB-C
+Ingress protection: IP54
+Weight: 2.0 kg
+Warranty: 2 years
+
+List price: GBP 1,031.41
+Support: accounts@example.net

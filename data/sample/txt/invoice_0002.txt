@@ -1,0 +1,16 @@
+INVOICE
+Invoice No: INV-2024-49313
+Issue Date: 21 March 2023
+Due Date: 20 June 2024
+
+From: Juniper Systems
+Bill To: Zephyra GmbH
+Contact: legal@example.org
+
+Description / Amount
+Cloud hosting x3   $13,443.95
+Cloud hosting x9   EUR 21,210.66
+Consulting services x7   GBP 47,465.18
+
+Total Due: GBP 72,194.03
+Thank you for your business.

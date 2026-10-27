@@ -1,0 +1,13 @@
+LICENSE AGREEMENT
+
+This Agreement is entered into as of 26 August 2025 between Fenwick Systems ("Provider") and Brindle Systems ("Client").
+
+1. Term. This Agreement remains in force for 13 months and renews unless terminated.
+2. Fees. The Client shall pay the Provider EUR 108,130.43 per year in accordance with the payment schedule.
+3. Confidentiality. Each party shall keep the other party's information confidential.
+4. Governing Law. This Agreement is governed by the laws of the State of Delaware.
+5. Notices. Legal notices shall be sent to contact@example.net.
+
+Signed:
+Charles Hunt, Provider
+Frederick Peterson, Client

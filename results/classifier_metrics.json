@@ -1,0 +1,12 @@
+{
+  "n_train": 800,
+  "n_test": 100,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "per_class_f1": {
+    "contract": 1.0,
+    "cv": 1.0,
+    "invoice": 1.0,
+    "tech_spec": 1.0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "tech_spec_example.txt",
+  "doc_type": "tech_spec",
+  "classifier_confidence": 0.9891652472526526,
+  "backend": "offline",
+  "data": {
+    "part_number": "TL-2494-E",
+    "manufacturer": "Juniper Solutions",
+    "revision_date": "December 18, 2021",
+    "list_price": "GBP 3,960.97",
+    "support_email": "contact@example.org",
+    "specs": {
+      "Operating voltage": "5 V",
+      "Operating temperature": "-35 to 101 C",
+      "Power consumption": "9 W",
+      "Interface": "USB-C"
+    }
+  }
+}

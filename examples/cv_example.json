@@ -1,0 +1,25 @@
+{
+  "source": "cv_example.txt",
+  "doc_type": "cv",
+  "classifier_confidence": 0.9921146317752196,
+  "backend": "offline",
+  "data": {
+    "name": "Mario Hernandez",
+    "email": "mario.hernandez@example.org",
+    "organizations": [
+      "Orbana Systems",
+      "Brindle Inc",
+      "University of New Jasonland"
+    ],
+    "skills": [
+      "Rust",
+      "LangChain",
+      "Pandas",
+      "Kubernetes",
+      "SQL",
+      "Java",
+      "Linux",
+      "React"
+    ]
+  }
+}

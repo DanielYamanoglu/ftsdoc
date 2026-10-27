@@ -1,0 +1,13 @@
+TECHNICAL SPECIFICATION
+Model: TL-2494-E
+Manufacturer: Juniper Solutions
+Revision date: December 18, 2021
+
+Specifications
+Operating voltage: 5 V
+Operating temperature: -35 to 101 C
+Power consumption: 9 W
+Interface: USB-C
+
+List price: GBP 3,960.97
+Support: contact@example.org

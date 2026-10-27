@@ -1,0 +1,13 @@
+CONSULTING AGREEMENT
+
+This Agreement is entered into as of 27.08.2023 between Brindle Holdings ("Provider") and Juniper Solutions ("Client").
+
+1. Term. This Agreement remains in force for 29 months and renews unless terminated.
+2. Fees. The Client shall pay the Provider $19,647.35 in total in accordance with the payment schedule.
+3. Confidentiality. Each party shall keep the other party's information confidential.
+4. Governing Law. This Agreement is governed by the laws of the State of Delaware.
+5. Notices. Legal notices shall be sent to info@example.net.
+
+Signed:
+Kevin Simpson, Provider
+Matthew Cole, Client

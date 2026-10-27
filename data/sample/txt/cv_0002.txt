@@ -1,0 +1,18 @@
+Brandon Garrison
+Email: bgarrison@example.org
+
+Profile
+Results-driven research engineer with 11 years of experience building production systems.
+
+Experience
+Data Scientist at Quillon Industries (2019-06-23 - 24 March 2020)
+Owned the migration of legacy services to containers.
+Research Engineer at Dunmore Works (1.09.2017 - 2022-07-06)
+Shipped data pipelines and monitoring dashboards.
+Software Engineer at Altavue Industries (May 24, 2014 - 13.04.2023)
+Led delivery of internal tooling and mentored junior colleagues.
+
+Education
+BSc in Statistics, University of West Connor, 18 June 2011
+
+Skills: PostgreSQL, LangChain, Go, Kafka, Airflow
