@@ -6,7 +6,7 @@
 ![transformers](https://img.shields.io/badge/%F0%9F%A4%97%20transformers-token%20classification-yellow)
 ![langchain](https://img.shields.io/badge/LangChain-pipeline-1c3c3c)
 ![pydantic](https://img.shields.io/badge/pydantic-v2-e92063)
-![tests](https://img.shields.io/badge/tests-20%20passing-brightgreen)
+[![CI](https://github.com/DanielYamanoglu/ftsdoc/actions/workflows/ci.yml/badge.svg)](https://github.com/DanielYamanoglu/ftsdoc/actions/workflows/ci.yml)
 ![license](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ![ftsdoc pipeline](assets/pipeline.svg)
