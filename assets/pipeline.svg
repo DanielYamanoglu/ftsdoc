@@ -34,9 +34,9 @@
     <text x="89" y="180">.txt  .pdf  .docx</text>
     <text x="265" y="173">LangChain loaders</text>
     <text x="265" y="190">+ text splitter</text>
-    <text x="451" y="173">TF-IDF + LogReg</text>
-    <text x="451" y="190">invoice / cv /</text>
-    <text x="451" y="205" dy="-1">contract / tech_spec</text>
+    <text x="451" y="166">TF-IDF + LogReg</text>
+    <text x="451" y="181">invoice / cv /</text>
+    <text x="451" y="196">contract / tech_spec</text>
     <text x="665" y="102">with_structured_output</text>
     <text x="665" y="119">(API key set)</text>
     <text x="665" y="252">fine-tuned NER + regex</text>

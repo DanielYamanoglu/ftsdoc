@@ -64,7 +64,7 @@ Held-out test split (10% of 1,000 synthetic documents, split by document, fixed 
 | Document type classifier | TF-IDF (1-2 grams) + LogisticRegression | accuracy / macro-F1 (100 docs) | 1.000 / 1.000 |
 | Entity extraction (8 types) | `google/bert_uncased_L-4_H-256_A-4`, fine-tuned 12 epochs | seqeval micro P / R / F1 (978 entities) | 1.000 / 1.000 / 1.000 |
 
-Per-entity seqeval scores on the test split (all 1.000): DATE (243), EMAIL (100), INVOICE_NO (25), MONEY (151), ORG (209), PART_NO (26), PERSON (74), SKILL (150). Training took 2.78 minutes on a laptop CPU.
+Per-entity seqeval scores on the test split (all 1.000): DATE (243), EMAIL (100), INVOICE_NO (25), MONEY (151), ORG (209), PART_NO (26), PERSON (74), SKILL (150). Training took under three minutes on a laptop CPU. The base model is a small BERT (4 layers, 256 hidden units). No checkpoint is committed: the Quickstart commands train it, and the base model is downloaded from the Hugging Face Hub on first run.
 
 Perfect scores are expected here and should not be read as a general claim: the synthetic documents come from a small set of templates, so the task is easy. They do show that the data generator, BIO labelling, training loop, inference and extraction wiring are consistent end to end. Real-document accuracy is unmeasured.
 
@@ -82,7 +82,7 @@ python -m ftsdoc extract examples/contract_example.docx --json
 python -m ftsdoc serve             # FastAPI on http://127.0.0.1:8000
 curl -F file=@examples/cv_example.txt http://127.0.0.1:8000/extract
 
-pytest                             # 20 tests, no network, no model download
+pytest                             # 20 tests, no network, no model download (the NER model path is not exercised by the tests)
 ```
 
 Backend selection is automatic: if `ANTHROPIC_API_KEY` (default model `claude-sonnet-5-5`, override with `FTSDOC_LLM_MODEL`) or `OPENAI_API_KEY` (default `gpt-4o-mini`) is set, the LLM backend is used. Otherwise the offline backend runs. Force one with `--backend llm|offline`. The first training run downloads the base model from the Hugging Face Hub.
@@ -120,6 +120,7 @@ assets/          pipeline diagram
 ## Limitations
 
 - Synthetic, template-driven data: metrics are not evidence of real-world performance.
+- The generator samples each field independently, so a synthetic document can be internally inconsistent: the sample invoice above has a due date earlier than its issue date.
 - The offline field assignment relies on line labels such as "Bill To:" and "Total Due:". Free-form layouts need the LLM backend or more training data with varied layouts.
 - Documents are processed line by line by the NER model; scanned PDFs need OCR first (not included).
 - `langchain-community` is used for the PDF/text loaders and emits a deprecation warning.
